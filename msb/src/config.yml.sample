@@ -1,0 +1,16 @@
+opencti:
+  url: 'http://localhost:8080'
+  token: 'f9ce92b2-dd3e-428a-a050-5829690cb0cf'
+
+connector:
+  id: 'ChangeMe'
+  type: 'EXTERNAL_IMPORT'
+  name: 'Common Vulnerabilities and Exposures'
+  scope: 'identity,vulnerability'
+  confidence_level: 3
+  update_existing_data: True
+  log_level: 'info'
+
+msb:
+  nvd_data_feed: 'https://support.microsoft.com/app/content/api/content/feeds/sap/en-us/6ae59d69-36fc-8e4d-23dd-631d98bf74a9/rss'
+  interval: 7 # Days
