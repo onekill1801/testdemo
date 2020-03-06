@@ -1,6 +1,6 @@
 opencti:
   url: 'http://localhost:8080'
-  token: '1ce1ab1c-b2de-47d8-8e9b-a141ff312387'
+  token: 'df8635b1-39b5-41c2-8873-2f19b0e6ca8c'
 
 connector:
   id: '70cf0207-6ab0-4924-99b6-4d8485733ec1'
@@ -14,5 +14,3 @@ connector:
 msb:
   nvd_data_feed: 'https://support.microsoft.com/app/content/api/content/feeds/sap/en-us/6ae59d69-36fc-8e4d-23dd-631d98bf74a9/rss'
   interval: 0.5 # Days
-
-uri: 'amqp://guest:guest@rabbitmq:5672/%2F'
