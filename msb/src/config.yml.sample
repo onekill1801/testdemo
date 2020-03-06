@@ -5,7 +5,7 @@ opencti:
 connector:
   id: '70cf0207-6ab0-4924-99b6-4d8485733ec1'
   type: 'EXTERNAL_IMPORT'
-  name: 'Common Vulnerabilities and Exposures'
+  name: 'MS Bulletin Vulnerabilities and Exposures'
   scope: 'identity,vulnerability'
   confidence_level: 3
   update_existing_data: True
